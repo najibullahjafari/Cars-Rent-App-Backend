@@ -16,6 +16,7 @@ gem 'jsonapi-serializer'
 gem 'puma', '>= 5.0'
 gem 'rack-cors'
 gem 'warden-jwt_auth'
+gem 'tailwindcss-rails'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
