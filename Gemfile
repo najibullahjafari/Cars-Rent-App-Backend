@@ -18,6 +18,9 @@ gem 'rack-cors'
 gem 'warden-jwt_auth'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
+gem 'sprockets-rails'
+
+
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
