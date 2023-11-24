@@ -1,18 +1,18 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: car.end
+    databaseName: car_end
+    user: car_end_user
 
 services:
   - type: web
-    name: mysite
+    name: car.end
     runtime: ruby
     buildCommand: './bin/render-build.sh'
     startCommand: 'bundle exec puma -C config/puma.rb'
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: mysite
+          name: car.end
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
