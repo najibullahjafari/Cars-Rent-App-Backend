@@ -33,7 +33,7 @@ module CarsRentAppBackend
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
     #
-    config.autoloader = :classic
+   
     # config.eager_load = true
 
     # config.time_zone = "Central Time (US & Canada)"
@@ -43,5 +43,6 @@ module CarsRentAppBackend
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+    config.autoloader = :classic
   end
 end
